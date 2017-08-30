@@ -1,12 +1,12 @@
 //http://js-algorithms.tutorialhorizon.com/2015/12/13/flatten-binary-tree-to-linked-list/
 'use strict';
 
-function BinarySearchTree () {
-  this.root = null;
+function BinarySearchTree () { // defines the constructor for a binary search tree
+  this.root = null;            // sets the root of the search tree to null
 }
 
-function LinkedList () {
-  this.head = null;
+function LinkedList () {  // defines the constructor for a linked list
+  this.head = null;       // sets the head of the list to null
 }
 
 function createLevelLinkedList (root, lists, level) {

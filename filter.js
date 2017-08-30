@@ -1,16 +1,12 @@
 'use strict';
 
-exports.filter = function(collection, predicate) {
+exports.filter = function(collection, test) {
   var results = [];
 
-  var i = collection.length;
-  while(i--) {
-    collection.filter(function(value) {
-      if(value == predicate) {
-        results.push(value);  
-      }
+  for (var i = 0; i < collection.length; i ++) {
+      if (test(array[i]))
+        results.push(array[i]);
     })
   }
-
   return results;
 }
