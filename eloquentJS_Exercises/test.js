@@ -4,7 +4,9 @@ if(!process.argv[2]) {
 
 var func = require(`./${process.argv[2]}`);
 
-if(process.argv[4]) {
+if (process.argv[5]){
+  console.log(func(process.argv[3], process.argv[4], process.argv[5]));
+} else if(process.argv[4]) {
   console.log(func(process.argv[3], process.argv[4]));
 } else if (process.argv[3]) {
   console.log(func(process.argv[3]));
