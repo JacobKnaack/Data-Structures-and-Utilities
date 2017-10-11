@@ -2,6 +2,8 @@ if(!process.argv[2]) {
   console.log('please supply a function as your second argument');
 }
 
+// TODO: convert arguments into proper JS objects / data structures 
+
 var func = require(`./${process.argv[2]}`);
 
 if (process.argv[5]){
