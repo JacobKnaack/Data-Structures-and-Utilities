@@ -5,9 +5,9 @@ module.exports = function addsToTen(numArray) {
   for (var i = 0; i < numArray.length; i ++) {
     currentNum = numArray[i]
     
-    for (var j = 0; j < numArray.length; j ++) {
+    for (var j = 0; j < i; j ++) {
       track = numArray[j]
-      if(i !== j && currentNum + track === 10) {
+      if (i !== j && currentNum + track === 10) {
         return [currentNum, track]
       }
     }  
