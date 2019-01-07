@@ -1,6 +1,11 @@
 'use strict';
+/*
+* @param {recipe}: Object - key value pairs of ingredients
+* @param {available}: Object - key valie pairs of ingredients
+* Takes in two objects and returns a number for how many times the recipe can be made
+*/
 
-function cakes(recipe, available) { // returns the number of times a recipe can be made with available ingredients
+function cakes(recipe, available) {
   var rNum = [];
 
   if(Object.keys(recipe).length == 0 || Object.keys(available).length == 0) {
@@ -25,3 +30,5 @@ function cakes(recipe, available) { // returns the number of times a recipe can 
   
   return Array.min(rNum);
 }
+
+module.exports = cakes;
