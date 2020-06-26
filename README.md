@@ -1,5 +1,19 @@
-# Code Challenges
+# Data Structure and Utilities
 
-## Puzzles and Problems from various sources
+A repository of data structure implementations and utility functions for addressing specific problems.
+
+## Table of contents
+
+Each directory within `src` specifies a topic for discussion and demonstration. Topics include
+
+- Data Structures
+  - Linked Lists
+- Strings
+- Numbers
+- 
+
+### - Javascript
+
+### - Data Structures
 
 

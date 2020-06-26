@@ -1,0 +1,22 @@
+{
+  "name": "data_structures_and_utilities",
+  "version": "1.0.0",
+  "description": "data structure and utility function implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacobKnaack/codeChallenges.git"
+  },
+  "author": "Jacob Knaack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacobKnaack/codeChallenges/issues"
+  },
+  "homepage": "https://github.com/JacobKnaack/codeChallenges#readme",
+  "devDependencies": {
+    "eslint": "^7.3.0"
+  }
+}
