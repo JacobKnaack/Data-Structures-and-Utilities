@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JacobKnaack/codeChallenges.git"
+    "url": "git+https://github.com/JacobKnaack/Data-Structures-and-Utilities.git"
   },
   "author": "Jacob Knaack",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JacobKnaack/codeChallenges/issues"
+    "url": "https://github.com/JacobKnaack/Data-Structures-and-Utilities/issues"
   },
-  "homepage": "https://github.com/JacobKnaack/codeChallenges#readme",
+  "homepage": "https://github.com/JacobKnaack/Data-Structures-and-Utilities#readme",
   "devDependencies": {
     "eslint": "^7.3.0"
   }

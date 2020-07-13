@@ -10,7 +10,8 @@ Each directory within `src` specifies a topic for discussion and demonstration. 
   - Linked Lists
 - Strings
 - Numbers
-- 
+- Sorting
+- Strings
 
 ### - Javascript
 
